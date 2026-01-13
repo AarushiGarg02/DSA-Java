@@ -1,8 +1,8 @@
 //Problem: Return Second Largest Element
-//Time Complexity: O(n)
+//Time Complexity: O(2*n) = O(n)
 //Auxiliary Space: O(1)
 class Solution {
-    public int getSecondLargest(int[] arr) {
+    public static int getSecondLargest(int[] arr) {
         // code here
         /*
         Algorithm:
@@ -27,6 +27,6 @@ class Solution {
     }
     public static void main(String args[]){
         int arr[] ={12, 35, 1, 10, 34, 1};
-        System.out.println(new Solution().getSecondLargest(arr));
+        System.out.println(getSecondLargest(arr));
     }
 }
